@@ -127,10 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\scraper.cpp" />
     <ClCompile Include="src\job_posting.cpp" />
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="src\cli\scrape.cpp" />
     <ClCompile Include="src\scrapers\base.cpp" />
+    <ClCompile Include="tests\test_job_posting.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\job_posting.hpp" />
+    <ClInclude Include="src\registry.hpp" />
+    <ClInclude Include="src\scraper.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="Job Boards.slnx" />
+    <None Include="vcpkg.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

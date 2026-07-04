@@ -2,6 +2,8 @@
 #include <string>
 #include <format>
 #include <vector>
+#include "job_posting.hpp"
+
 
 struct JobPosting {
     std::string firm;
@@ -25,7 +27,9 @@ struct ScrapeResult {
     std::string firm;
     std::vector<JobPosting> jobs;
     std::string error;
-
+    
+    
+    /// Apparently C++ 20 has a one liner for this function. Come back to this.
     void job_posting_cleanup() {
         std::vector<JobPosting> normalized_jobs;
         normalized_jobs.reserve(jobs.size());
@@ -37,5 +41,3 @@ struct ScrapeResult {
         jobs = std::move(normalized_jobs);
     }
 };
-
-// class BaseScraper:
