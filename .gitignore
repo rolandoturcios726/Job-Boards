@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.aps
+
+# Build output
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+ARM/
+ARM64/
+Bin/
+Obj/
+
+# Compiler intermediates
+*.obj
+*.iobj
+*.pdb
+*.ipdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.res
+*.tlog
+*.log
+
+# OS junk
+Thumbs.db
+.DS_Store
