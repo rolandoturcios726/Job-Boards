@@ -6,6 +6,7 @@
 #include <vector>
 
 #include "job_posting.hpp"
+
 class BaseScraper {
 public:
 	virtual ~BaseScraper() = default;
