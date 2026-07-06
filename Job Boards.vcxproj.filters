@@ -21,16 +21,10 @@
     <ClCompile Include="src\cli\scrape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\scrapers\base.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\job_posting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\scraper.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\test_job_posting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

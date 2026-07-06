@@ -1,5 +1,8 @@
 {
   "name": "job-boards",
   "version": "0.1.0",
-  "dependencies": ["catch2"]
+  "dependencies": [
+    "catch2"
+  ],
+  "builtin-baseline": "dfcb04008a5a9e038a4ae0d1af57909e30d21359"
 }
