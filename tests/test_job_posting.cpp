@@ -48,5 +48,6 @@ TEST_CASE("Job Posting: CleanUp") {
 		}
 		}
 	};
+	SR.job_posting_cleanup();
 	REQUIRE(SR.jobs.size() == 2);
 }
