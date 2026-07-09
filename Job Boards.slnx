@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../JobBoards.Tests/JobBoards.Tests.vcxproj" Id="60c3a7ac-e52c-4d40-960d-4264959e02aa" />
   <Project Path="Job Boards.vcxproj" Id="f9556d6a-4702-47df-b0db-56afab24714d" />
 </Solution>

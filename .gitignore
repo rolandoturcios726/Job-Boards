@@ -36,3 +36,4 @@ Obj/
 # OS junk
 Thumbs.db
 .DS_Store
+vcpkg_installed/*
