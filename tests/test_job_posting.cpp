@@ -1,5 +1,5 @@
 #include <catch2/catch_test_macros.hpp>
-#include "job_posting.hpp"
+#include "jobboards/job_posting.hpp"
 
 TEST_CASE("Job Posting: Intake") {
 	 JobPosting JB{
@@ -18,6 +18,8 @@ TEST_CASE("Job Posting: Intake") {
 	 REQUIRE(JB.url == "test.com");
 	 REQUIRE(JB.posted_at == "2026-05-12");
 }
+
+
 TEST_CASE("Job Posting: CleanUp") {
 	ScrapeResult SR = {
 		.firm = "Goldman Sachs",

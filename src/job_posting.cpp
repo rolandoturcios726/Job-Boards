@@ -1,5 +1,5 @@
 #include <format>
-#include "job_posting.hpp"
+#include "jobboards/job_posting.hpp"
 
 
 std::string JobPosting::fingerprint() const {

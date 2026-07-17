@@ -3,8 +3,8 @@
 #include <unordered_set>
 #include <vector>
 #include <stdexcept>
-#include "job_posting.hpp"
-#include "scraper.hpp"
+#include "jobboards/job_posting.hpp"
+#include "jobboards/scraper.hpp"
 
 
 BaseScraper::BaseScraper(std::string firm, std::unordered_set<std::string> cached_fps):
