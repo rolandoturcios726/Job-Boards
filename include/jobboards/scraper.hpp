@@ -5,7 +5,7 @@
 #include <unordered_set>
 #include <vector>
 
-#include "job_posting.hpp"
+#include "jobboards/job_posting.hpp"
 
 class BaseScraper {
 public:

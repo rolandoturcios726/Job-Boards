@@ -10,6 +10,7 @@ ipch/
 *.aps
 
 # Build output
+out/
 [Dd]ebug/
 [Rr]elease/
 x64/
